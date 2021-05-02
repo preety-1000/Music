@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <test name="mod1">
+ <groups>
+ <run>
+ <include name ="G3">
+ </include>
+ <exclude name ="G1"></exclude>
+ </run>
+ </groups>
+  <classes>
+ <class name ="m1.page1" >
+ </class>
+ <class name ="m1.page2" >
+ </class>
+ <class name ="m1.p4" >
+ </class>
+ </classes>
+</test> 
+  <!-- Test -->
+</suite> <!-- Suite -->
